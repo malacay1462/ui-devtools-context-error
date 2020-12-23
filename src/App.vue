@@ -1,32 +1,32 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+    <v-main>
+      <div class="bg-gray-100 flex justify-center items-center w-full h-screen">
+        <div class="shadow w-64 rounded bg-white">
+          <div>Text</div>
+          <div>
+            <div>Erin Lindford</div>
+            <div>Product Engineer</div>
+            <div>erin.landford@acme.com</div>
+            <div>(555) 765-4321</div>
+          </div>
+        </div>
+      </div>
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
+export default {
+  name: "App",
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+  components: {
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+  },
+
+  data: () => ({
+    //
+  })
+};
+</script>
