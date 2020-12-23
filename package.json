@@ -12,6 +12,7 @@
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "@tailwindcss/aspect-ratio": "^0.2",
     "@tailwindcss/typography": "^0.3",
+    "@ui-devtools/tailwind": "github:ui-devtools/tailwind",
     "@ui-devtools/tailwind-vue-experimental": "github:ui-devtools/tailwind-vue-experimental",
     "@vue/cli-plugin-babel": "^4.5.0",
     "@vue/cli-plugin-eslint": "^4.5.0",
