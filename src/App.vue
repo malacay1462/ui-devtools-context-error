@@ -5,8 +5,8 @@
         <div class="shadow w-64 rounded bg-white">
           <div>Text</div>
           <div>
-            <div>Erin Lindford</div>
-            <div>Product Engineer</div>
+            <div class="text-material-red-lighten-5">Erin Lindford</div>
+            <div class="text-material-red-darken-2">Product Engineer</div>
             <div>erin.landford@acme.com</div>
             <div>(555) 765-4321</div>
           </div>
